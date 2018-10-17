@@ -1,4 +1,4 @@
-<strong>Instructions:</strong
+<strong>Instructions:</strong>
 
 Download the zip file and install it like any other plugin (either through the WP admin panel, or uploading into your plugins folder via FTP and unzipping).
 Note that you must have WooCommerce and WP GraphQL (https://github.com/wp-graphql/wp-graphql) installed.
