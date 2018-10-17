@@ -1,6 +1,4 @@
-This plugin extends the WP GraphQL plugin and exposes WooCommerce product fields for querying.
-
-Instructions:
+<strong>Instructions:</strong
 
 Download the zip file and install it like any other plugin (either through the WP admin panel, or uploading into your plugins folder via FTP and unzipping).
 Note that you must have WooCommerce and WP GraphQL (https://github.com/wp-graphql/wp-graphql) installed.
@@ -13,4 +11,4 @@ In comes GraphQL. Most of you would probably be familiar with REST APIs and the 
 
 Though designed to handle Facebook's enormous amount of social data, GraphQL could find utility almost anywhere. Combined with other tools - such as Scalability Pro (https://www.wpintense.com/product/scalability-pro), which drastically reduces WP table scans - it is possible to modernise the stack powering your WooCommerce store and have it capable of selling hundreds of thousands of products with minimal impact on performance.
 
-Potential stack for maximal WordPress/WooCommerce performance: LEPP [Linux, NGINX, PHP7-FPM, PerconaDB with InnoDB engine] + Redis object cache.
+<strong>Potential stack for maximal WordPress/WooCommerce performance:</strong> LEPP [Linux, NGINX, PHP7-FPM, PerconaDB with InnoDB engine] + Redis object cache.
