@@ -44,7 +44,7 @@ class WC_Product_Detail {
 				return $product->get_featured();
 			}
 		];
-        $fields['rating'] = [
+      		$fields['rating'] = [
 			'type' => \WPGraphQL\Types::float(),
 			'description' => __('Get the product\'s average rating', 'wcgql'),
 			'resolve' => function(\WP_Post $post) {
@@ -106,7 +106,8 @@ class WC_Product_Detail {
 			}
 		];
 		return $fields;
-}
+    }
+
 }
 
 global $WC_Register_Product_Detail;
